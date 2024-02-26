@@ -1,0 +1,60 @@
+* styles.css */
+
+/* Set the font for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header element */
+header {
+    background-color: #88093D;
+    color: #fff;
+    padding: 4rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 9; /* Remove the top margin */
+}
+
+nav {
+    margin-top: 0; /* Remove the top margin */
+}
+
+/* Style the unordered list within the header element */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the list items within the unordered list */
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+/* Style the links within the list items */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main element */
+main {
+    padding: 2rem;
+}
+/* Style the footer element */
+footer {
+    background-color: #88093D;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
